@@ -1,5 +1,5 @@
 // connect to socket server
-const socket = io.connect("https://rt-whiteboard.onrender.com/");
+const socket = io.connect("http://rt-whiteboard.onrender.com/");
 // *********************************Basic Setup
 const board = document.querySelector(".board");
 board.height = window.innerHeight;
